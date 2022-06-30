@@ -1,1 +1,34 @@
-Curso completo sobre o Git/Github, no qual aprendi todos os conceitos bases de como a plataforma opera para que milhares de desenvolvedores consigam trabalhar em conjunto em um único projeto em paralelo. Dessa forma, aprendi a clonar, postar e atualizar repositórios com o Git para o Github. 
+Curso completo sobre o Git/Github, no qual aprendi todos os conceitos bases de como a plataforma opera para que milhares de desenvolvedores consigam trabalhar em conjunto em um único projeto em paralelo. Dessa forma, aprendi a clonar, postar e atualizar repositórios com o Git para o Github.
+**Comandos importantes:** 
+1) dir - listar pastas
+2) cd - local do sistema
+3) cd .. - volta
+4) cls - limpa o terminal
+5) mkdir - cria uma pasta
+6) del - exclui uma pasta
+7) rmdir pasta /S /Q - delta um repositório
+-------------------------------------------
+**Comandos para criar uma chave TOKEN:**
+1) ssh-keygen -t ed25519 -C "email sem aspas do github"
+2) Coloque uma senha 
+3) Chave salva
+4) cat id_ed25519.pub (Chave pública)
+5) eval $(ssh-agent -s) 
+6) ssh-add id_ed25519 (Privada) -> Vai usar essa chave p/ descriptografar o repositório quando for clonado para o computador.
+-------------------------------------------
+**Clonando um repositório:**
+1) ssh-test
+2) git clone (+link do repositório em ssh)
+3) Digitar YES e colocar a senha
+4) Pronto! Repositório clonado
+-------------------------------------------
+**Preparando repositório para ser postado através do Commit e Push:**
+1) git status (verificar se tudo está bem no repositório)
+2) git init (para criar uma pasta git. dentro do repositório)
+3) git add * 
+4) git commit -m "Descrição do commit para fins de organização da atualização."
+5) git status (para ver se tudo correu bem)
+6) git remote add origin (+link do repositório em ssh)
+7) git remote -v (Verificar os links de repositórios que apareceram)
+8) git status (+ 1 git status para saber se tudo está pronto antes de postar no repositório do servidor)
+9) git push origin master ( YES, para prosseguir e depois colocar senha para confirmar a postagem do repositório no servidor)
