@@ -1,0 +1,1 @@
+Curso completo sobre o Git/Github, no qual aprendi todos os conceitos bases de como a plataforma opera para que milhares de desenvolvedores consigam trabalhar em conjunto em um único projeto em paralelo. Dessa forma, aprendi a clonar, postar e atualizar repositórios com o Git para o Github. 

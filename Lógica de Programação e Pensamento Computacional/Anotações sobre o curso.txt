@@ -1,0 +1,2 @@
+Curso no qual desenvolvi meu raciocínio lógico, aprendi como os conceitos de Decomposição, Padrões, Abstração, Algoritmos funcionam no pensamento computacional.
+Além disso, adquiri o conhecimento sobre a lógica, e descobri técnicas de lógica de programação, fundamentos de algoritmos e linguagens de programação.
